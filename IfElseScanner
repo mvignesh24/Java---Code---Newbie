@@ -1,0 +1,21 @@
+/* Write a Java program to allow the user to input his/her age. Then the program has to show
+whether the person is eligible to vote or not */
+
+
+import java.util.Scanner;
+
+public class ExIfel {
+	public static void main (String[] args)
+	{
+	Scanner userin = new Scanner(System.in);
+	System.out.println("Enter Your Age : ");
+	int num = userin.nextInt()	;
+	{
+	if (num >= 18) 
+		System.out.println("You are eligible to Vote");
+	else
+		System.out.println("You should be 18 yrs old to cast your Vote");
+	userin.close();
+	}
+	}
+}
